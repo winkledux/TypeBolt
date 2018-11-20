@@ -5,13 +5,13 @@ TypeBolt is a program written in python 3, to test how fast you type with the ke
 Run TypeBolt.py, which will open your selected browser. Once finished typing, close the browser and then run graph.py to see your results!
 
 # Requirements
-- Selenium(Browser Interaction) ```pip install -U selenium```
-- Matplotlib(graphing) ```pip install matplotlib```
-- chromedriver(chrome) and geckodriver(firefox)
+- Selenium(Browser Interaction)  ```pip install -U selenium```
+- Matplotlib(graphing)  ```pip install matplotlib```
+- chromedriver(chrome) or geckodriver(firefox)
    
 # Supported Browsers
-- Firefox
 - Chrome
+- Firefox
 
 # Config
-All the information needed for the program is in config.ini file. Currently the buttons are not implemented.
+All the information needed for the program is in config.ini file. The buttons currently are not implemented.
