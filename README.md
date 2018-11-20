@@ -14,4 +14,4 @@ Run TypeBolt.py, which will open your selected browser. Once finished typing, cl
 - Firefox
 
 # Config
-All the information needed for the program is in config.ini file. The buttons currently are not implemented.
+All the information needed for the program is in config.ini file.
