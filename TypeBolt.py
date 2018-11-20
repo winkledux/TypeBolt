@@ -53,7 +53,7 @@ except WebDriverException:
     sys.exit()
 
 typeBolt.get(url)
-typeBolt.maximize_window()  # Maximize window
+typeBolt.maximize_window()  # Maximize window, doesn't work on MacOS with Chrome
 accuracy = typeBolt.find_element_by_id('accuracy')
 speed = typeBolt.find_element_by_id('speed')
 numAccuracy = str2Float(accuracy.text)
